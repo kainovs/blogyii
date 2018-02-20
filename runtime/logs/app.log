@@ -1,0 +1,1136 @@
+2018-02-13 20:17:26 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:17:26 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '40683'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518553046.52
+    'REQUEST_TIME' => 1518553046
+]
+2018-02-13 20:17:35 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:17:35 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '41170'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518553055.644
+    'REQUEST_TIME' => 1518553055
+]
+2018-02-13 20:17:40 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:17:40 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '41406'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518553060.683
+    'REQUEST_TIME' => 1518553060
+]
+2018-02-13 20:19:10 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:19:10 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '45913'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518553150.292
+    'REQUEST_TIME' => 1518553150
+]
+2018-02-13 20:37:08 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:37:07 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+    'googtrans' => '/en/ru'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D; googtrans=/en/ru; googtrans=/en/ru'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '43804'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518554227.95
+    'REQUEST_TIME' => 1518554227
+]
+2018-02-13 20:42:43 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:42:43 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+    'googtrans' => '/en/ru'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D; googtrans=/en/ru; googtrans=/en/ru'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '60289'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518554563.53
+    'REQUEST_TIME' => 1518554563
+]
+2018-02-13 20:42:51 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:42:50 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+    'googtrans' => '/en/ru'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D; googtrans=/en/ru; googtrans=/en/ru'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '60607'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518554570.978
+    'REQUEST_TIME' => 1518554570
+]
+2018-02-13 20:43:08 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:43:08 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+    'googtrans' => '/en/ru'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D; googtrans=/en/ru; googtrans=/en/ru'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '33217'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518554588.303
+    'REQUEST_TIME' => 1518554588
+]
+2018-02-13 20:46:39 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web/', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:46:38 [10.1.0.4][-][2lpm5rrvp3jclkgud4m65afrl5][info][application] $_COOKIE = [
+    'PHPSESSID' => '2lpm5rrvp3jclkgud4m65afrl5'
+    '_csrf' => '775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1\";}'
+    'googtrans' => '/en/ru'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hinmks'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2lpm5rrvp3jclkgud4m65afrl5; _csrf=775b9fb9bea2b9b60f1d784ecf1e987ff69d73117ad615ceb2c4df16f53d69c4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222NcQrAmJAm0fuoE5lr5Uq-g-ozf0sET1%22%3B%7D; googtrans=/en/ru; googtrans=/en/ru'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '43626'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518554798.936
+    'REQUEST_TIME' => 1518554798
+]
+2018-02-14 05:59:36 [10.1.0.4][-][dmlhap291fn42ilm7ndo7vm6u1][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('web', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-14 05:59:36 [10.1.0.4][-][dmlhap291fn42ilm7ndo7vm6u1][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '85.175.99.195'
+    'HTTP_X_FORWARDED_FOR' => '192.168.0.4, 85.175.99.195'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_VIA' => '1.1 localhost:8080 (squid/2.7.STABLE9)'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '46226'
+    'REDIRECT_URL' => '/web'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518587976.077
+    'REQUEST_TIME' => 1518587976
+]
+2018-02-14 19:23:58 [10.1.0.4][-][jph4i7btrap294rd9cdunhatq6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-14 19:23:58 [10.1.0.4][-][jph4i7btrap294rd9cdunhatq6][info][application] $_COOKIE = [
+    'PHPSESSID' => 'jph4i7btrap294rd9cdunhatq6'
+    '_csrf' => 'fd28c0443268cf7296fde50cd4b2a38739a43f2f853374acd6bcf9a1ec287b8da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kxePA-RlQHy71ah-Y4wNSYqeR6K9X7Cc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zulany'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '94.233.224.45'
+    'HTTP_X_FORWARDED_FOR' => '94.233.224.45'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=jph4i7btrap294rd9cdunhatq6; _csrf=fd28c0443268cf7296fde50cd4b2a38739a43f2f853374acd6bcf9a1ec287b8da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kxePA-RlQHy71ah-Y4wNSYqeR6K9X7Cc%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '47672'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518636238.786
+    'REQUEST_TIME' => 1518636238
+]
+2018-02-15 12:37:52 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-15 12:37:52 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'h4icmvg5hg8h1uniarb2cuf0g3'
+    '_csrf' => '14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '5.138.176.11'
+    'HTTP_X_FORWARDED_FOR' => '5.138.176.11'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=h4icmvg5hg8h1uniarb2cuf0g3; _csrf=14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '56318'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518698272.38
+    'REQUEST_TIME' => 1518698272
+]
+2018-02-15 18:32:56 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant _sidebar - assumed '_sidebar' in /home/cabox/workspace/views/layouts/main.php:70
+Stack trace:
+#0 /home/cabox/workspace/views/layouts/main.php(70): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/cabox/wor...', 70, Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(332): require('/home/cabox/wor...')
+#2 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/cabox/wor...', Array)
+#3 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/home/cabox/wor...', Array, Object(app\controllers\SiteController))
+#4 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 /home/cabox/workspace/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /home/cabox/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-02-15 18:32:56 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'h4icmvg5hg8h1uniarb2cuf0g3'
+    '_csrf' => '14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fuhtbag'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '5.138.176.11'
+    'HTTP_X_FORWARDED_FOR' => '5.138.176.11'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=h4icmvg5hg8h1uniarb2cuf0g3; _csrf=14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '59038'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518719576.698
+    'REQUEST_TIME' => 1518719576
+]
+2018-02-15 18:41:19 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][error][Error] Error: Class 'Html' not found in /home/cabox/workspace/views/layouts/_sidebar.php:2
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/cabox/wor...', Array)
+#2 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/cabox/wor...', Array, NULL)
+#3 /home/cabox/workspace/views/layouts/main.php(70): yii\base\View->render('_sidebar')
+#4 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(332): require('/home/cabox/wor...')
+#5 /home/cabox/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/cabox/wor...', Array)
+#6 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/home/cabox/wor...', Array, Object(app\controllers\SiteController))
+#7 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#8 /home/cabox/workspace/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 /home/cabox/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#13 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#14 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2018-02-15 18:41:19 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'h4icmvg5hg8h1uniarb2cuf0g3'
+    '_csrf' => '14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fuhtbag'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '5.138.176.11'
+    'HTTP_X_FORWARDED_FOR' => '5.138.176.11'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=h4icmvg5hg8h1uniarb2cuf0g3; _csrf=14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '49966'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518720079.737
+    'REQUEST_TIME' => 1518720079
+]
+2018-02-15 19:19:09 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-15 19:19:09 [10.1.0.4][-][h4icmvg5hg8h1uniarb2cuf0g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'h4icmvg5hg8h1uniarb2cuf0g3'
+    '_csrf' => '14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fuhtbag'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '5.138.176.11'
+    'HTTP_X_FORWARDED_FOR' => '5.138.176.11'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=h4icmvg5hg8h1uniarb2cuf0g3; _csrf=14e37d015ec67e0be074af6403f7ca86d8c73b9d4774fb7a6e1a18d52878007fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-iKMmrsb1hGLg96vh3GdeMdRyzH0wM4n%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '34219'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518722349.829
+    'REQUEST_TIME' => 1518722349
+]
+2018-02-16 10:54:52 [10.1.0.4][-][2ljvienmvvck0vn2827aoohr77][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-16 10:54:52 [10.1.0.4][-][2ljvienmvvck0vn2827aoohr77][info][application] $_COOKIE = [
+    'PHPSESSID' => '2ljvienmvvck0vn2827aoohr77'
+    '_csrf' => '954c6211b0fcb4c1977440d44caeaef0237d3ccaab19c83b9160d1e427597d18a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"b7xPLoz43v4OfV0UKel7PQNd3GaCcNFp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '5.138.176.11'
+    'HTTP_X_FORWARDED_FOR' => '5.138.176.11'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=2ljvienmvvck0vn2827aoohr77; _csrf=954c6211b0fcb4c1977440d44caeaef0237d3ccaab19c83b9160d1e427597d18a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22b7xPLoz43v4OfV0UKel7PQNd3GaCcNFp%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.1.0.4'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '40708'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1518778492.644
+    'REQUEST_TIME' => 1518778492
+]
+2018-02-20 06:13:39 [10.2.0.5][-][eaom5p238n6br0megfkk9kfq45][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-20 06:13:39 [10.2.0.5][-][eaom5p238n6br0megfkk9kfq45][info][application] $_COOKIE = [
+    'PHPSESSID' => 'eaom5p238n6br0megfkk9kfq45'
+    '_csrf' => 'a150c8a4bba8a77eda9f9f57740c652b67d9def356f557939eddda96973d6054a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GRykt9UgnQbYGtwhxJ1nMw1LoIZsqv9U\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '85.175.99.195'
+    'HTTP_X_FORWARDED_FOR' => '192.168.0.4, 85.175.99.195'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=eaom5p238n6br0megfkk9kfq45; _csrf=a150c8a4bba8a77eda9f9f57740c652b67d9def356f557939eddda96973d6054a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GRykt9UgnQbYGtwhxJ1nMw1LoIZsqv9U%22%3B%7D'
+    'HTTP_VIA' => '1.1 localhost:8080 (squid/2.7.STABLE9)'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.2.0.5'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '37027'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519107219.158
+    'REQUEST_TIME' => 1519107219
+]
+2018-02-20 13:58:28 [10.2.0.5][-][piuu2kqbh9f31u9au859c49sl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/post". in /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('admin/post', Array)
+#1 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-02-20 13:58:28 [10.2.0.5][-][piuu2kqbh9f31u9au859c49sl4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'piuu2kqbh9f31u9au859c49sl4'
+    '_csrf' => '36247e6e5425f5ef27ab1f1949b2debe259867a8292e22a9b5892565a9efd68ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"01LLs9ModUsPg47EyfgiihxXmgvc-SkR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_X_REAL_IP' => '85.175.99.195'
+    'HTTP_X_FORWARDED_FOR' => '192.168.0.4, 85.175.99.195'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=piuu2kqbh9f31u9au859c49sl4; _csrf=36247e6e5425f5ef27ab1f1949b2debe259867a8292e22a9b5892565a9efd68ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2201LLs9ModUsPg47EyfgiihxXmgvc-SkR%22%3B%7D'
+    'HTTP_VIA' => '1.1 localhost:8080 (squid/2.7.STABLE9)'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.2.0.5'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '46730'
+    'REDIRECT_URL' => '/admin/post'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/post'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519135108.605
+    'REQUEST_TIME' => 1519135108
+]
+2018-02-20 14:05:04 [10.2.0.5][-][piuu2kqbh9f31u9au859c49sl4][error][Error] Error: Call to undefined method app\models\User::findByUsername() in /home/cabox/workspace/models/LoginForm.php:76
+Stack trace:
+#0 /home/cabox/workspace/models/LoginForm.php(48): app\models\LoginForm->getUser()
+#1 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#2 /home/cabox/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#3 /home/cabox/workspace/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#4 /home/cabox/workspace/vendor/yiisoft/yii2/base/Model.php(360): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#5 /home/cabox/workspace/models/LoginForm.php(62): yii\base\Model->validate()
+#6 /home/cabox/workspace/controllers/SiteController.php(79): app\models\LoginForm->login()
+#7 [internal function]: app\controllers\SiteController->actionLogin()
+#8 /home/cabox/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/cabox/workspace/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /home/cabox/workspace/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#11 /home/cabox/workspace/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#12 /home/cabox/workspace/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/cabox/workspace/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2018-02-20 14:05:03 [10.2.0.5][-][piuu2kqbh9f31u9au859c49sl4][info][application] $_POST = [
+    '_csrf' => '_j9azxpFC87bcGz3oqJSvPkdWJ5ZPiuB9Th5m_cNEWfODhaDaXxGob8lH6fFlmX5gHs_9zBWU9mYXw_42l56NQ=='
+    'LoginForm' => [
+        'username' => 'прпр'
+        'password' => 'вапрпрпа'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'piuu2kqbh9f31u9au859c49sl4'
+    '_csrf' => '36247e6e5425f5ef27ab1f1949b2debe259867a8292e22a9b5892565a9efd68ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"01LLs9ModUsPg47EyfgiihxXmgvc-SkR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CONNECTION' => 'Upgrade'
+    'HTTP_HOST' => 'blogyii-skainovs444903.codeanyapp.com'
+    'CONTENT_LENGTH' => '290'
+    'HTTP_X_REAL_IP' => '85.175.99.195'
+    'HTTP_X_FORWARDED_FOR' => '192.168.0.4, 85.175.99.195'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_ORIGIN' => 'http://blogyii-skainovs444903.codeanyapp.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://blogyii-skainovs444903.codeanyapp.com/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=piuu2kqbh9f31u9au859c49sl4; _csrf=36247e6e5425f5ef27ab1f1949b2debe259867a8292e22a9b5892565a9efd68ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2201LLs9ModUsPg47EyfgiihxXmgvc-SkR%22%3B%7D'
+    'HTTP_VIA' => '1.1 localhost:8080 (squid/2.7.STABLE9)'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at blogyii-skainovs444903.codeanyapp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => 'blogyii-skainovs444903.codeanyapp.com'
+    'SERVER_ADDR' => '172.39.214.174'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.2.0.5'
+    'DOCUMENT_ROOT' => '/home/cabox/workspace/web/'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/home/cabox/workspace/web/index.php'
+    'REMOTE_PORT' => '54907'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519135503.965
+    'REQUEST_TIME' => 1519135503
+]
