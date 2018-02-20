@@ -4,6 +4,7 @@ namespace app\models;
 
 use Yii;
 use \yii\db\ActiveRecord;
+use yii\web\IdentityInterface;
 
 /**
  * This is the model class for table "user".
@@ -38,7 +39,7 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
-            [['username', 'auth_key', 'password_hash', 'email', 'created_at', 'updated_at'], 'required'],
+            [['username', 'auth_key', 'password_hash', 'email', 'created_at'], 'required'],
             [['status'], 'integer'],
             [['created_at', 'updated_at'], 'safe'],
             [['username', 'password_hash', 'password_reset_token', 'email'], 'string', 'max' => 255],
@@ -69,11 +70,47 @@ class User extends ActiveRecord implements IdentityInterface
   
   public function validatePassword($password)
   {
-    return Yii::app->security->validatePassword($password, $this->password_hash)
+   return yii::$app->security->validatePassword($password, $this->password_hash);
   }
   
-  public function findIdentity ($id)
+  public static function findIdentity ($id)
   {
-    return static::  
+    return static::findOne(['id'=>$id,'status' => self::STATUS_ACTIVE ]);
   }
+
+
+
+    public static function findIdentityByAccessToken($token, $type = null)
+    {
+       // throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.'
+    }
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function getAuthKey()
+    {
+       return $this->auth_key;
+    }
+
+    public function validateAuthKey($authKey)
+    {
+       return $this->auth_key===$authKey;
+    }
+
+    public function setPassword($password)
+    {
+        $this->password_hash = Yii::$app->security->generatePasswordHash($password);
+    }
+
+    public function generateAuthKey()
+    {
+        $this->auth_key = Yii::$app->security->generateRandomString();
+    }
+     public function findByUsername($username)
+     {
+       return  static::findOne(['username'=>$username, 'status' => self::STATUS_ACTIVE ]);
+     }
 }
