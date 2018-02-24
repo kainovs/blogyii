@@ -5,19 +5,19 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "category".
+ * This is the model class for table "tag".
  *
  * @property int $id
- * @property string $category
+ * @property string $title
  */
-class Category extends \yii\db\ActiveRecord
+class Tag extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'category';
+        return 'tag';
     }
 
     /**
@@ -26,8 +26,8 @@ class Category extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['category'], 'required'],
-            [['category'], 'string', 'max' => 250],
+            [['title'], 'required'],
+            [['title'], 'string', 'max' => 255],
         ];
     }
 
@@ -38,7 +38,7 @@ class Category extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'category' => 'Category',
+            'title' => 'Title',
         ];
     }
 }
