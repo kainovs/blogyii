@@ -51,7 +51,7 @@ AppAsset::register($this);
     {
         $menuItems[] = ['label' => 'Статьи', 'url' => ['/post']];
         $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post') // Форма логаута, смотрим виджет ActiveForm
+            . Html::beginForm(['/site/logout'], 'post') 
             . Html::submitButton(
                 'Выйти (' . Yii::$app->user->identity->username . ')',
                 ['class' => 'btn btn-link logout']
